@@ -29,7 +29,7 @@ li {
 }
 
 #content_area {
-  overflow:hidden;
+  overflow: hidden;
   margin: auto;
   width: 95%;
 }
@@ -37,7 +37,7 @@ li {
 #footer {
   background-color: #45A29E;
   margin: auto;
-  width:100%;
+  width: 100%;
   bottom: auto;
 }
 
@@ -52,7 +52,7 @@ li {
 .logo a {
   color: #44CFCB;
   text-decoration: none;
-  padding: 10px
+  padding: 10px;
 }
 
 .logo span {
