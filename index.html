@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html>
 
+    <div class="custom-shape-divider-bottom-1671463846">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>home</title>
+        <div class="nav">
+            <div class="logo">
+                <h2><a href="index.html">fotos.ostertun.de<span></span></a></h2>   
+            </div>
+            <div class="nav-links">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="seasons.html">Seasons</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>   
+        </div>
+
+        <div class="about">
+            <h2 class="header">home</h2> 
+        </div>
+    </head>
+        <body>
+        <div id="content_area">
+            <div id="slideshow" class="slideshow">
+                <br> 
+                <img id="pics" src="pics (1).jpg" alt="foto">
+                <img id="pics" src="pics (2).jpg" alt="foto">
+                <img id="pics" src="pics (3).jpg" alt="foto">
+                <img id="pics" src="pics (4).jpg" alt="foto">
+                <img id="pics" src="pics (5).jpg" alt="foto">
+                <img id="pics" src="pics (6).jpg" alt="foto">
+                <img id="pics" src="pics (7).jpg" alt="foto">
+                <img id="pics" src="pics (8).jpg" alt="foto">
+                <img id="pics" src="pics (9).jpg" alt="foto">
+                <img id="pics" src="pics (10).jpg" alt="foto">
+                <img id="pics" src="pics (11).jpg" alt="foto">
+                <img id="pics" src="pics (12).jpg" alt="foto">
+                <img id="pics" src="pics (13).jpg" alt="foto">
+                <img id="pics" src="pics (14).jpg" alt="foto">
+                <img id="pics" src="pics (15).jpg" alt="foto">
+                <img id="pics" src="pics (16).jpg" alt="foto">
+                <img id="pics" src="pics (17).jpg" alt="foto">
+                <img id="pics" src="pics (18).jpg" alt="foto">
+                <img id="pics" src="pics (19).jpg" alt="foto">
+                <img id="pics" src="pics (20).jpg" alt="foto">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>   
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>   
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br> 
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <script>
+                var images = document.querySelectorAll(".slideshow img");
+                function slideShow() {
+                    var randomIndex = Math.floor(Math.random() * images.length);
+                    var currentImage = images[randomIndex];
+
+                    for (var i = 0; i < images.length; i++) {
+                        images[i].classList.remove("active");
+                        images[i].classList.add("inactive");
+                }
+
+                currentImage.classList.remove("inactive");
+                currentImage.classList.add("active");
+            }
+
+            setInterval(slideShow, 5000);
+            </script>
+            <div id="footer">
+                Die Bilder sind zum Download und zum Upload freigegeben.
+                <br>
+                an ostertun project
+            </div>
+        </div>
+    </body>
+</html>
