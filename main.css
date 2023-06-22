@@ -22,9 +22,10 @@ h2 {
 }
 
 #pics {
-  width: 205.5px;
+  width: 205,5px;
   height: 291px;
   border: 4px solid #224870;
+  left:25%;
 }
 
 .knopf {
@@ -50,7 +51,7 @@ li {
 #footer {
   background-color: #45A29E;
   margin: auto;
-  width:78%;
+  width:80%;
   position: absolute;
   bottom: auto;
   border: 4px solid #224870;
