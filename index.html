@@ -22,49 +22,12 @@
         </div>
     </head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atma">
-        <body style="font-family: atma">
+    <body style="font-family: atma">
         <div id="content_area">
         <h2 style="font-size:20px;">Danke fürs Zuschauen!!!</h2>
-        
-            <div id="slideshow" class="slideshow">
-                <br> 
+            <div>
                 <img id="pics" src="https://jrg-wedel.de/files/img/content/Theater%20-%20DSP/Unterstufentheater/2023%20-%20Unterstufentheater%20-%20Plakat.jpg" alt="plakat">
-                <br>
-                
-                <br>
-                <br>
-                <br>   
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>   
-                <br>
-                <br>
-                <br>
-                <br>
-            
-            </div>
-            <script>
-                var images = document.querySelectorAll(".slideshow img");
-                function slideShow() {
-                    var randomIndex = Math.floor(Math.random() * images.length);
-                    var currentImage = images[randomIndex];
-            
-                    for (var i = 0; i < images.length; i++) {
-                        images[i].classList.remove("active");
-                        images[i].classList.add("inactive");
-                }
-            
-                currentImage.classList.remove("inactive");
-                currentImage.classList.add("active");
-            }
-            
-            setInterval(slideShow, 2000);
-            </script>
+                </div>
             <div id="footer">
                 Unterstufen Theater 2023
             </div>
